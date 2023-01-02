@@ -7,8 +7,6 @@ weatherForm.addEventListener("submit", (e) => {
   e.preventDefault();
   const location = search.value;
 
-  const locale = "My father is a good man";
-
   messageOne.textContent = "Loading...";
   messageTwo.textContent = "";
 
